@@ -1,18 +1,34 @@
-## Getting Started
+# Family Task Manager
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A java applications that Manage your family tasks and chores.
 
-## Folder Structure
+## Implement Features
 
-The workspace contains two folders by default, where:
+-**Task Management**
+- Add new task with name and due date
+-Delete existing task
+-Mark tasks as complete/incomplete
+-View all task in a list
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+-**User Interface**
+-Clean and inituitive GUI built with Javafx
+-Two main views: Add Task and View Tasks
+-Responsive Layout with proper spacing and padding
+-Confirmation dialogs for critical options
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Technical Details
+-Build with Java 17 and Javafx
+-Maven project structure
+-Model-View-Controller (MVC) architecture
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## How to Run
+1.Ensure you have Java 17+ installed
+2.Configure JavaFx SDK path in IDE
+3.Run the FamilyTaskManager class
 
-## Dependency Management
+##Future Enhancements
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+-Task categories
+-User accounts
+-Data persistence
+-Notifications/remainders
